@@ -218,7 +218,7 @@ class LoginViewState extends State<LoginView> {
           if (widget.footerBuilder != null)
             widget.footerBuilder!(
               context,
-              widget.action,
+              _action,
             ),
         ],
       ),
